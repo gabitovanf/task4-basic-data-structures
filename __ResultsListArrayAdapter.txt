@@ -1,0 +1,134 @@
+I
+ListArrayAdapter array.put(item) :  10 -> 4.0531158447265625e-06
+ListArrayAdapter array.put(item) :  100 -> 3.0994415283203125e-05
+ListArrayAdapter array.put(item) :  1000 -> 0.00034308433532714844
+ListArrayAdapter array.put(item) :  10000 -> 0.0032660961151123047
+ListArrayAdapter array.put(item) :  100000 -> 0.030751943588256836
+ListArrayAdapter array.put(item) :  1000000 -> 0.276047945022583
+ListArrayAdapter array.put(item) :  10000000 -> 2.737936019897461
+ListArrayAdapter array.put(item) :  100000000 -> 27.81555199623108
+ListArrayAdapter array.put(item) :  1000000000 -> 271.2168848514557
+II
+ListArrayAdapter array.put(item) :  10 -> 4.0531158447265625e-06
+ListArrayAdapter array.put(item) :  100 -> 2.9802322387695312e-05
+ListArrayAdapter array.put(item) :  1000 -> 0.0003120899200439453
+ListArrayAdapter array.put(item) :  10000 -> 0.0030319690704345703
+ListArrayAdapter array.put(item) :  100000 -> 0.02932596206665039
+ListArrayAdapter array.put(item) :  1000000 -> 0.2517120838165283
+ListArrayAdapter array.put(item) :  10000000 -> 2.460984706878662
+ListArrayAdapter array.put(item) :  100000000 -> 25.373188018798828
+ListArrayAdapter array.put(item) :  1000000000 -> 250.1028311252594
+
+ListArrayAdapter array.add(item, index) :  10 -> 7.867813110351562e-06
+ListArrayAdapter array.add(item, index) :  100 -> 5.1975250244140625e-05
+ListArrayAdapter array.add(item, index) :  1000 -> 0.0005991458892822266
+ListArrayAdapter array.add(item, index) :  10000 -> 0.013284921646118164
+ListArrayAdapter array.add(item, index) :  100000 -> 0.7432858943939209
+ListArrayAdapter array.add(item, index) :  1000000 -> 78.38632011413574
+
+
+Methods get and remove with array of random int values from 0 to 100:
+
+(size 10000)
+GET THE 10th ITEM
+ListArrayAdapter array.get(index) -> item :  10 -> 6.9141387939453125e-06
+ListArrayAdapter array.get(index) -> item :  100 -> 3.170967102050781e-05
+ListArrayAdapter array.get(index) -> item :  1000 -> 0.0003292560577392578
+ListArrayAdapter array.get(index) -> item :  10000 -> 0.0035309791564941406
+ListArrayAdapter array.get(index) -> item :  100000 -> 0.03009176254272461
+ListArrayAdapter array.get(index) -> item :  1000000 -> 0.2935020923614502
+ListArrayAdapter array.get(index) -> item :  10000000 -> 2.7116880416870117
+ListArrayAdapter array.get(index) -> item :  100000000 -> 30.03488302230835
+ListArrayAdapter array.get(index) -> item :  1000000000 -> 275.0707778930664
+
+
+GET ITEM WITH STEP (CICLE)
+ListArrayAdapter array.get(index) -> item :  10 -> 7.152557373046875e-06
+ListArrayAdapter array.get(index) -> item :  100 -> 4.1961669921875e-05
+ListArrayAdapter array.get(index) -> item :  1000 -> 0.000408172607421875
+ListArrayAdapter array.get(index) -> item :  10000 -> 0.0041599273681640625
+ListArrayAdapter array.get(index) -> item :  100000 -> 0.03833508491516113
+ListArrayAdapter array.get(index) -> item :  1000000 -> 0.3432650566101074
+ListArrayAdapter array.get(index) -> item :  10000000 -> 3.4799883365631104
+ListArrayAdapter array.get(index) -> item :  100000000 -> 35.28285193443298
+ListArrayAdapter array.get(index) -> item :  1000000000 -> 342.0665421485901
+
+(size 1000011)
+GET THE 10th ITEM
+ListArrayAdapter array.get(index) -> item :  10 -> 7.867813110351562e-06
+ListArrayAdapter array.get(index) -> item :  100 -> 2.7894973754882812e-05
+ListArrayAdapter array.get(index) -> item :  1000 -> 0.0003178119659423828
+ListArrayAdapter array.get(index) -> item :  10000 -> 0.0033049583435058594
+ListArrayAdapter array.get(index) -> item :  100000 -> 0.03213310241699219
+ListArrayAdapter array.get(index) -> item :  1000000 -> 0.3431851863861084
+ListArrayAdapter array.get(index) -> item :  10000000 -> 3.057300329208374
+ListArrayAdapter array.get(index) -> item :  100000000 -> 31.524677753448486
+ListArrayAdapter array.get(index) -> item :  1000000000 -> 294.71933698654175
+
+GET ITEM WITH STEP (CICLE)
+ListArrayAdapter array.get(index) -> item :  10 -> 2.288818359375e-05
+ListArrayAdapter array.get(index) -> item :  100 -> 9.107589721679688e-05
+ListArrayAdapter array.get(index) -> item :  1000 -> 0.00051116943359375
+ListArrayAdapter array.get(index) -> item :  10000 -> 0.004889965057373047
+ListArrayAdapter array.get(index) -> item :  100000 -> 0.05382490158081055
+ListArrayAdapter array.get(index) -> item :  1000000 -> 0.437694787979126
+ListArrayAdapter array.get(index) -> item :  10000000 -> 4.5678391456604
+ListArrayAdapter array.get(index) -> item :  100000000 -> 45.774945974349976
+ListArrayAdapter array.get(index) -> item :  1000000000 -> 438.3745119571686
+
+
+REMOVE THE 9th ITEM
+(size 10011)
+ListArrayAdapter array.remove(index) -> item :  10 -> 2.09808349609375e-05
+ListArrayAdapter array.remove(index) -> item :  100 -> 0.00017404556274414062
+ListArrayAdapter array.remove(index) -> item :  1000 -> 0.0016651153564453125
+ListArrayAdapter array.remove(index) -> item :  10000 -> 0.010011911392211914
+
+(size 100011)
+ListArrayAdapter array.remove(index) -> item :  10 -> 0.0001862049102783203
+ListArrayAdapter array.remove(index) -> item :  100 -> 0.0020122528076171875
+ListArrayAdapter array.remove(index) -> item :  1000 -> 0.019469022750854492
+ListArrayAdapter array.remove(index) -> item :  10000 -> 0.1820662021636963
+ListArrayAdapter array.remove(index) -> item :  100000 -> 0.8666422367095947
+
+(size 1000011)
+ListArrayAdapter array.remove(index) -> item :  10 -> 0.0026891231536865234
+ListArrayAdapter array.remove(index) -> item :  100 -> 0.025880813598632812
+ListArrayAdapter array.remove(index) -> item :  1000 -> 0.232421875
+ListArrayAdapter array.remove(index) -> item :  10000 -> 2.175182819366455
+ListArrayAdapter array.remove(index) -> item :  100000 -> 19.408088207244873
+ListArrayAdapter array.remove(index) -> item :  1000000 -> 95.79148006439209
+
+(size 10000011)
+ListArrayAdapter array.remove(index) -> item :  10 -> 0.09077095985412598
+ListArrayAdapter array.remove(index) -> item :  100 -> 0.617063045501709
+ListArrayAdapter array.remove(index) -> item :  1000 -> 6.159058094024658
+ListArrayAdapter array.remove(index) -> item :  10000 -> 61.231122970581055
+
+ListArrayAdapter array.remove(index) -> item :  10 -> 0.06035590171813965
+ListArrayAdapter array.remove(index) -> item :  100 -> 0.6568820476531982
+ListArrayAdapter array.remove(index) -> item :  1000 -> 6.371371030807495
+ListArrayAdapter array.remove(index) -> item :  10000 -> 63.48704409599304
+
+SIZE
+(size 10000)
+ListArrayAdapter array.size(item) :  10 -> 4.291534423828125e-06
+ListArrayAdapter array.size(item) :  100 -> 2.193450927734375e-05
+ListArrayAdapter array.size(item) :  1000 -> 0.00022292137145996094
+ListArrayAdapter array.size(item) :  10000 -> 0.0023729801177978516
+ListArrayAdapter array.size(item) :  100000 -> 0.021612882614135742
+ListArrayAdapter array.size(item) :  1000000 -> 0.1949939727783203
+ListArrayAdapter array.size(item) :  10000000 -> 1.9853861331939697
+ListArrayAdapter array.size(item) :  100000000 -> 18.837123155593872
+ListArrayAdapter array.size(item) :  1000000000 -> 180.24559092521667
+
+(size 1000011)
+ListArrayAdapter array.size(item) :  10 -> 4.76837158203125e-06
+ListArrayAdapter array.size(item) :  100 -> 1.7881393432617188e-05
+ListArrayAdapter array.size(item) :  1000 -> 0.0002932548522949219
+ListArrayAdapter array.size(item) :  10000 -> 0.002769947052001953
+ListArrayAdapter array.size(item) :  100000 -> 0.022469043731689453
+ListArrayAdapter array.size(item) :  1000000 -> 0.20142817497253418
+ListArrayAdapter array.size(item) :  10000000 -> 1.9366779327392578
+ListArrayAdapter array.size(item) :  100000000 -> 20.27409291267395
+ListArrayAdapter array.size(item) :  1000000000 -> 200.82110786437988
